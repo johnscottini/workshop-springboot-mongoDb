@@ -1,13 +1,10 @@
 package com.example.workshopmongo.resources.exception;
 
-import java.time.Instant;
-
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
-import com.example.course.services.exceptions.DatabaseException;
 import com.example.workshopmongo.exception.ObjectNotFoundException;
 
 import jakarta.servlet.http.HttpServletRequest;
